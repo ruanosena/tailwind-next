@@ -4,14 +4,17 @@ import { Button } from '../Button'
 export function Profile() {
   return (
     <div className="grid grid-cols-profile items-center gap-3">
+      {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src="https://github.com/ruanosena.png"
         className="h-10 w-10 rounded-full"
         alt=""
       />
       <div className="flex flex-1 flex-col truncate">
-        <span className="text-sm font-semibold text-zinc-700">Ruan Sena</span>
-        <span className="truncate text-sm text-zinc-500">
+        <span className="text-sm font-semibold text-zinc-700 dark:text-zinc-100">
+          Ruan Sena
+        </span>
+        <span className="truncate text-sm text-zinc-500 dark:text-zinc-400">
           ruosena@hotmail.com
         </span>
       </div>
